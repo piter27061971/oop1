@@ -92,7 +92,7 @@ int main()
          }
         
         fout.close();
-
+        delete [] adr;
     }
     else
     {
